@@ -4,5 +4,11 @@ from data import que
 questions = []
 
 for question in que:
-    ques = Question(question[0], question[1])
+    ques = Question(question["category"],
+                    question["type"],
+                    question["difficulty"],
+                    question["question"],
+                    question["correct_answer"],
+                    question["incorrect_answers"][0],
+                    )
     questions.append(ques)

@@ -10,12 +10,12 @@ class Quiz:
             print("You got it right!")
         else:
             print("That's wrong.")
-        print(f"The correct answer was: {question.answer}.")
+        print(f"The correct answer was: {question.correct_answer}.")
         print(f"Your current score is: {self.score}/{self.total_score}\n\n")
 
     def show_quiz(self):
         for quiz in self.questions:
-            ans = input(f"Q.{self.total_score+1}: {quiz.question_statement} ( True/False ): ")
+            ans = input(f"Q.{self.total_score+1}({quiz.category}): {quiz.question} ( True/False ): ")
             answer = quiz.check_answer(ans)
             self.total_score += 1
             if answer:

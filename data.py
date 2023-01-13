@@ -1,14 +1,103 @@
 que = [
-    ["The HTML5 standard was published in 2014.", "True"],
-    ["The first computer bug was formed by faulty wires.", "False"],
-    ["FLAC stands for 'Free Lossless Audio Condenser'.", "False"],
-    ["All program codes have to be compiled into an executable file in order to be run. This file can then be executed on any machine.", "False"],
+            {
+                "category": "Science: Computers",
+                "type": "boolean",
+                "difficulty": "easy",
+                "question": "Linus Torvalds created Linux and Git.",
+                "correct_answer": "True",
+                "incorrect_answers": [
+                    "False"
+                ]
+            },
+            {
+                "category": "Science: Computers",
+                "type": "boolean",
+                "difficulty": "easy",
+                "question": "The programming language &quot;Python&quot; is based off a modified version of &quot;JavaScript&quot;.",
+                "correct_answer": "False",
+                "incorrect_answers": [
+                    "True"
+                ]
+            },
+            {
+                "category": "Science: Computers",
+                "type": "boolean",
+                "difficulty": "easy",
+                "question": "The logo for Snapchat is a Bell.",
+                "correct_answer": "False",
+                "incorrect_answers": [
+                    "True"
+                ]
+            },
+            {
+                "category": "Science: Computers",
+                "type": "boolean",
+                "difficulty": "easy",
+                "question": "Pointers were not used in the original C programming language; they were added later on in C++.",
+                "correct_answer": "False",
+                "incorrect_answers": [
+                    "True"
+                ]
+            },
+            {
+                "category": "Science: Computers",
+                "type": "boolean",
+                "difficulty": "easy",
+                "question": "Ada Lovelace is often considered the first computer programmer.",
+                "correct_answer": "True",
+                "incorrect_answers": [
+                    "False"
+                ]
+            },
+            {
+                "category": "Science: Computers",
+                "type": "boolean",
+                "difficulty": "easy",
+                "question": "&quot;HTML&quot; stands for Hypertext Markup Language.",
+                "correct_answer": "True",
+                "incorrect_answers": [
+                    "False"
+                ]
+            },
+            {
+                "category": "Science: Computers",
+                "type": "boolean",
+                "difficulty": "easy",
+                "question": "Time on Computers is measured via the EPOX System.",
+                "correct_answer": "False",
+                "incorrect_answers": [
+                    "True"
+                ]
+            },
+            {
+                "category": "Science: Computers",
+                "type": "boolean",
+                "difficulty": "easy",
+                "question": "The Windows 7 operating system has six main editions.",
+                "correct_answer": "True",
+                "incorrect_answers": [
+                    "False"
+                ]
+            },
+            {
+                "category": "Science: Computers",
+                "type": "boolean",
+                "difficulty": "easy",
+                "question": "The NVidia GTX 1080 gets its name because it can only render at a 1920x1080 screen resolution.",
+                "correct_answer": "False",
+                "incorrect_answers": [
+                    "True"
+                ]
+            },
+            {
+                "category": "Science: Computers",
+                "type": "boolean",
+                "difficulty": "easy",
+                "question": "The Python programming language gets its name from the British comedy group &quot;Monty Python.&quot;",
+                "correct_answer": "True",
+                "incorrect_answers": [
+                    "False"
+                ]
+            }
 
-    ["Linus Torvalds created Linux and Git.", "True"],
-    ["The programming language 'Python' is based off a modified version of 'JavaScript'", "False"],
-    ["AMD created the first consumer 64-bit processor.", "True"],
-    ["'HTML' stands for Hypertext Markup Language.", "True"],
-
-    ["In most programming languages, the operator ++ is equivalent to the statement '+= 1'.", "True"],
-    ["The IBM PC used an Intel 8008 microprocessor clocked at 4.77 MHz and 8 kilobytes of memory.", "False"]
 ]
